@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cb021c;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    transition: background 0.4s ease-in-out;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.bar {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    font-size: 3rem;
+}
+.call {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    font-size: 3rem;
+}
+.logo {
+    text-align: center;
+    margin: 2rem 0;
+    color: white;
+    font-size: 1.7rem;
+}
+.logo i {
+    font-size: 3rem;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 400;
+}
+p {
+    color: rgb(27, 22, 22);
+    margin: 0;
+    font-weight: 600;
+}
+.collections {
+    overflow: hidden;
+    margin-top: 10rem;
+    height: 60vh;
+    width: 100vw;
+    position: relative;
+}
+.shoes-collection {
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+    transform: translateX(0);
+    transition: transform 0.4s ease-in-out;
+}
+.slide {
+    width: 100vw;
+    text-align: center;
+}
+
+.slide img {
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+}
+.arrow {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 5rem;
+    color: black;
+    opacity: 0.5;
+}
+.swipe-left {
+    left: 2rem;
+}
+.swipe-right {
+    right: 2rem;
+}
